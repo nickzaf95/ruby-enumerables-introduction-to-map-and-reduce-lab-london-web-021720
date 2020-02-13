@@ -58,7 +58,6 @@ end
 def reduce_to_any_true(src)
   i = 0 
   while i < src.size do
-    p src[i]
     if src[i] != false && src[i] != nil
       return true
     end
