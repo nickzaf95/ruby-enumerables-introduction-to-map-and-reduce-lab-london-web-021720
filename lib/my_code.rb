@@ -33,3 +33,12 @@ def map_to_square(src)
   arr
 end
   
+def reduce_to_total(src, start)
+  i = start
+  arr = 0 
+  while i < src.size do
+    arr += src[i]
+    i += 1 
+  end
+  arr
+end
