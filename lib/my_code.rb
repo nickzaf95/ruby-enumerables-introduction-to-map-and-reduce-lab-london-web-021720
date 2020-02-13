@@ -54,3 +54,32 @@ def reduce_to_all_true(src)
   end
   true
 end
+
+def reduce_to_any_true(src)
+  i = 0 
+  while i < src.size do
+    if src[i] != false
+      return true
+    end
+    i += 1
+  end
+  false
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
