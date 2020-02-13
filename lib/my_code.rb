@@ -4,6 +4,7 @@ def map_to_negativize(src)
   arr = []
   while i < src.size do
     arr[i] = src[i] * -1
+    i += 1 
   end
   arr
 end
@@ -17,6 +18,7 @@ def map_to_double(src)
   arr = []
   while i < src.size do
     arr[i] = src[i] * 2 
+    i += 1 
   end
   arr
 end
@@ -25,7 +27,8 @@ def map_to_square(src)
   i = 0 
   arr = []
   while i < src.size do
-    arr[i] = src[i]**2 
+    arr[i] = src[i]**2
+    i += 1 
   end
 end
   
