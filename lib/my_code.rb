@@ -30,5 +30,6 @@ def map_to_square(src)
     arr[i] = src[i]**2
     i += 1 
   end
+  arr
 end
   
