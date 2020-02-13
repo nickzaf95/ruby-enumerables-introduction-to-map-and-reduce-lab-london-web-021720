@@ -47,7 +47,7 @@ end
 def reduce_to_all_true(src)
   i = 0 
   while i < src.size do
-    if src[i] != true
+    if src[i] == false
       return false
     end
     i += 1 
