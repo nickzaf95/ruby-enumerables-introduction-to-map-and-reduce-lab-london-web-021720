@@ -36,6 +36,7 @@ end
 def reduce_to_total(src, start = 0 )
   i = start
   arr = 0 
+  p src 
   while i < src.size do
     arr = arr + src[i]
     i += 1 
