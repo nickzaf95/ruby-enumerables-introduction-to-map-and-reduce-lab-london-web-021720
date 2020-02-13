@@ -43,3 +43,14 @@ def reduce_to_total(src, start = 0 )
   end
   arr
 end
+
+def reduce_to_all_true(src)
+  i = 0 
+  while i < src.size do
+    if src[i] != true
+      return false
+    end
+    i += 1 
+  end
+  true
+end
